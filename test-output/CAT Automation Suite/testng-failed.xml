@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CAT Automation Suite]">
+  <test name="Consult Template">
+    <classes>
+      <class name="com.cat.AutomationPage.ConsultTemplate"/>
+    </classes>
+  </test> <!-- Consult Template -->
+  <test name="Consent Automation Template Script">
+    <classes>
+      <class name="com.cat.AutomationPage.ConsentAutomationTemplateScript"/>
+    </classes>
+  </test> <!-- Consent Automation Template Script -->
+  <test name="Binary List Template Script">
+    <classes>
+      <class name="com.cat.AutomationPage.BinaryListTemplateScript"/>
+    </classes>
+  </test> <!-- Binary List Template Script -->
+  <test name="Branching Script">
+    <classes>
+      <class name="com.cat.AutomationPage.BranchingScript"/>
+    </classes>
+  </test> <!-- Branching Script -->
+</suite> <!-- Failed suite [CAT Automation Suite] -->

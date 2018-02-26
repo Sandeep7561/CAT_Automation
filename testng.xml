@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CAM Automation Suite">
+ 
+    
+    <test name="SelectableImageTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SelectableImageTemplateScript"/>
+        </classes>
+  </test> 
+  
+  
+    <test name="CarouselTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.CarouselTemplateScript"/>
+        </classes>
+  </test> 
+      
+      
+      
+       <test name="EditDragAndDropTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.EditDragAndDropTemplateScript"/>
+      
+        </classes>
+  </test> 
+      
+       
+         <test name="ConsentAutomationTemplateScript Test">
+    <classes>
+       
+      <class name="com.cat.AutomationPage.ConsentAutomationTemplateScript"/>
+        </classes>
+  </test> 
+      
+      
+         
+     <test name="BinaryListTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.BinaryListTemplateScript"/>
+        </classes>
+  </test> 
+      
+     
+      <test name="ConsultTemplate Test">
+    <classes>
+      <class name="com.cat.AutomationPage.ConsultTemplate"/>
+        </classes>
+  </test> 
+      
+      
+      
+      
+      <test name="SidebarTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SidebarTemplateScript"/>
+        </classes>
+  </test> 
+      
+      
+       <test name="SelectableHotspotTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SelectableHotspotTemplateScript"/>
+        </classes>
+  </test> 
+      
+       
+     
+      
+      
+      
+       <test name="VideoTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.VideoTemplateScript"/>
+        </classes>
+  </test> 
+      
+      
+      
+      
+       <test name="SelectAndRevealTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SelectAndRevealTemplateScript"/>
+        </classes>
+  </test> 
+      
+      
+      
+       <test name="TextAndGraphicTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.TextAndGraphicTemplateScript"/>
+        </classes>
+  </test> <!-- Test -->
+      
+     
+       
+       <test name="SAQTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SAQTemplateScript"/>
+        </classes>
+  </test> 
+      
+      
+       <test name="BranchingScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.BranchingScript"/>
+        </classes>
+  </test> 
+       
+       <test name="ConfigurationScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.ConfigurationScript"/>
+        </classes>
+  </test> <!-- Test --> 
+  
+</suite> 

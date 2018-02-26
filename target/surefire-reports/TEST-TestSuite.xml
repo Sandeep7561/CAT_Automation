@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3,139.681" tests="120" errors="0" skipped="7" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Jenkins\workspace\CATAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Jenkins\workspace\CATAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\JENKIN~1.USE\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Jenkins.User\Desktop\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jre1.8.0_144\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\Jenkins.User\Desktop\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Jenkins.User\AppData\Local\Programs\Fiddler;&quot;C:\Program Files\Java\jre1.8.0_144\bin&quot;;."/>
+    <property name="maven.conf" value="C:\Users\Jenkins.User\Desktop\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Users\Jenkins.User\Desktop\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\Jenkins.User"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Jenkins.User"/>
+    <property name="java.class.path" value="C:\Users\Jenkins.User\Desktop\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_144"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f pom.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Jenkins.User\Desktop\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.SelectableImageTemplateScript" time="4.72"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.SelectableImageTemplateScript" time="28.58"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.SelectableImageTemplateScript" time="34.126"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.SelectableImageTemplateScript" time="6.548"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.SelectableImageTemplateScript" time="4.679"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.SelectableImageTemplateScript" time="9.303"/>
+  <testcase name="SelectableImagePageTC" classname="com.cat.AutomationPage.SelectableImageTemplateScript" time="245.255">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()=&apos;Upload Files&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;QAWIN7QA01&apos;, ip: &apos;10.103.15.72&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir4320_20089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 222e7dc48eb49e7976307187c30319a5" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Upload Files'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir4320_20089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 222e7dc48eb49e7976307187c30319a5
+	at com.cat.AutomationPage.SelectableImageTemplateScript.SelectableImagePageTC(SelectableImageTemplateScript.java:75)
+</failure>
+    <system-err><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='fileExplorer']/div[2]/div[2]/div[1]/label (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir4320_20089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 222e7dc48eb49e7976307187c30319a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cat.utility.WebAppCommon.getWaitForElementPresent(WebAppCommon.java:1651)
+	at com.cat.utility.WebAppCommon.getUploadImage(WebAppCommon.java:2190)
+	at com.cat.AutomationScript.SelectableImageUtili.selectableimage(SelectableImageUtili.java:66)
+	at com.cat.AutomationPage.SelectableImageTemplateScript.SelectableImagePageTC(SelectableImageTemplateScript.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></system-err>
+  </testcase>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.SelectableImageTemplateScript" time="0">
+    <skipped message="Method SelectableImageTemplateScript.CatLogOutTC()[pri:0, instance:com.cat.AutomationPage.SelectableImageTemplateScript@29ca901e] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.CarouselTemplateScript" time="3.833"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.CarouselTemplateScript" time="19.943"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.CarouselTemplateScript" time="32.176"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.CarouselTemplateScript" time="6.531"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.CarouselTemplateScript" time="4.636"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.CarouselTemplateScript" time="9.301"/>
+  <testcase name="CatEditCarouselTemplate" classname="com.cat.AutomationPage.CarouselTemplateScript" time="242.97">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()=&apos;Upload Files&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;QAWIN7QA01&apos;, ip: &apos;10.103.15.72&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir4320_20089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 222e7dc48eb49e7976307187c30319a5" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Upload Files'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir4320_20089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 222e7dc48eb49e7976307187c30319a5
+	at com.cat.AutomationPage.CarouselTemplateScript.CatEditCarouselTemplate(CarouselTemplateScript.java:77)
+</failure>
+    <system-out><![CDATA[Random image selected: Penguins
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='fileExplorer']/div[2]/div[2]/div[1]/label (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir4320_20089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 222e7dc48eb49e7976307187c30319a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cat.utility.WebAppCommon.getWaitForElementPresent(WebAppCommon.java:1651)
+	at com.cat.utility.WebAppCommon.getUploadImage(WebAppCommon.java:2190)
+	at com.cat.AutomationScript.CarouselTemplateUtili.editCarouselTemplate(CarouselTemplateUtili.java:76)
+	at com.cat.AutomationPage.CarouselTemplateScript.CatEditCarouselTemplate(CarouselTemplateScript.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></system-err>
+  </testcase>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.CarouselTemplateScript" time="180.02">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //ul[@class=&apos;nav navbar-nav nav-pills pull-right&apos;]/li[2]/a (tried for 30 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //ul[@class='nav navbar-nav nav-pills pull-right']/li[2]/a (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at com.cat.AutomationPage.CarouselTemplateScript.CatLogOutTC(CarouselTemplateScript.java:85)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //ul[@class='nav navbar-nav nav-pills pull-right']/li[2]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at com.cat.AutomationPage.CarouselTemplateScript.CatLogOutTC(CarouselTemplateScript.java:85)
+</failure>
+  </testcase>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.EditDragAndDropTemplateScript" time="3.86"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.EditDragAndDropTemplateScript" time="22.885"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.EditDragAndDropTemplateScript" time="392.72">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&apos;messageDialog&apos;]/tr/td[2] (tried for 200 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='messageDialog']/tr/td[2] (tried for 200 second(s) with 500 MILLISECONDS interval)
+	at com.cat.AutomationPage.EditDragAndDropTemplateScript.CatCreateCourseTC(EditDragAndDropTemplateScript.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //*[@id='messageDialog']/tr/td[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at com.cat.AutomationPage.EditDragAndDropTemplateScript.CatCreateCourseTC(EditDragAndDropTemplateScript.java:40)
+</failure>
+  </testcase>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.EditDragAndDropTemplateScript" time="0">
+    <skipped message="Method EditDragAndDropTemplateScript.CatAddLesson()[pri:0, instance:com.cat.AutomationPage.EditDragAndDropTemplateScript@527740a2] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.EditDragAndDropTemplateScript" time="0">
+    <skipped message="Method EditDragAndDropTemplateScript.CatAddTopic()[pri:0, instance:com.cat.AutomationPage.EditDragAndDropTemplateScript@527740a2] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.EditDragAndDropTemplateScript" time="0">
+    <skipped message="Method EditDragAndDropTemplateScript.CatAddPage()[pri:0, instance:com.cat.AutomationPage.EditDragAndDropTemplateScript@527740a2] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="CatEditDragAndDropTemplate" classname="com.cat.AutomationPage.EditDragAndDropTemplateScript" time="0">
+    <skipped message="Method EditDragAndDropTemplateScript.CatEditDragAndDropTemplate()[pri:0, instance:com.cat.AutomationPage.EditDragAndDropTemplateScript@527740a2] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.EditDragAndDropTemplateScript" time="0">
+    <skipped message="Method EditDragAndDropTemplateScript.CatLogOutTC()[pri:0, instance:com.cat.AutomationPage.EditDragAndDropTemplateScript@527740a2] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.ConsentAutomationTemplateScript" time="3.319"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.ConsentAutomationTemplateScript" time="18.367"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.ConsentAutomationTemplateScript" time="34.522"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.ConsentAutomationTemplateScript" time="7.327"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.ConsentAutomationTemplateScript" time="4.82"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.ConsentAutomationTemplateScript" time="9.725"/>
+  <testcase name="CatEditConsentTemplate" classname="com.cat.AutomationPage.ConsentAutomationTemplateScript" time="44.578"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.ConsentAutomationTemplateScript" time="3.121"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.BinaryListTemplateScript" time="3.376"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.BinaryListTemplateScript" time="20.993"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.BinaryListTemplateScript" time="33.498"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.BinaryListTemplateScript" time="6.425"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.BinaryListTemplateScript" time="4.721"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.BinaryListTemplateScript" time="9.527"/>
+  <testcase name="CatEditBinaryTemplate" classname="com.cat.AutomationPage.BinaryListTemplateScript" time="46.038"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.BinaryListTemplateScript" time="2.858"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.ConsultTemplate" time="3.344"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.ConsultTemplate" time="19.676"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.ConsultTemplate" time="32.922"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.ConsultTemplate" time="6.618"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.ConsultTemplate" time="4.562"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.ConsultTemplate" time="9.387"/>
+  <testcase name="CatEditConsult" classname="com.cat.AutomationPage.ConsultTemplate" time="72.101"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.ConsultTemplate" time="3.07"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.SidebarTemplateScript" time="3.249"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.SidebarTemplateScript" time="19.832"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.SidebarTemplateScript" time="33.27"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.SidebarTemplateScript" time="6.431"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.SidebarTemplateScript" time="4.659"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.SidebarTemplateScript" time="9.404"/>
+  <testcase name="SidebarPageTC" classname="com.cat.AutomationPage.SidebarTemplateScript" time="48.187"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.SidebarTemplateScript" time="2.958"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.SelectableHotspotTemplateScript" time="3.215"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.SelectableHotspotTemplateScript" time="19.995"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.SelectableHotspotTemplateScript" time="33.21"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.SelectableHotspotTemplateScript" time="6.422"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.SelectableHotspotTemplateScript" time="4.745"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.SelectableHotspotTemplateScript" time="9.335"/>
+  <testcase name="SelectableHotspotPageTC" classname="com.cat.AutomationPage.SelectableHotspotTemplateScript" time="260.547">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()=&apos;Upload Files&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;QAWIN7QA01&apos;, ip: &apos;10.103.15.72&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir6024_24250}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 7ce9e11766e10c8a50e6b1e151168510" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Upload Files'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir6024_24250}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7ce9e11766e10c8a50e6b1e151168510
+	at com.cat.AutomationPage.SelectableHotspotTemplateScript.SelectableHotspotPageTC(SelectableHotspotTemplateScript.java:77)
+</failure>
+    <system-out><![CDATA[Random image selected: Koala
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='fileExplorer']/div[2]/div[2]/div[1]/label (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir6024_24250}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7ce9e11766e10c8a50e6b1e151168510
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cat.utility.WebAppCommon.getWaitForElementPresent(WebAppCommon.java:1651)
+	at com.cat.utility.WebAppCommon.getUploadImage(WebAppCommon.java:2190)
+	at com.cat.AutomationScript.ConsultTemplateUtili.selectableHotspotTemplate(ConsultTemplateUtili.java:605)
+	at com.cat.AutomationPage.SelectableHotspotTemplateScript.SelectableHotspotPageTC(SelectableHotspotTemplateScript.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></system-err>
+  </testcase>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.SelectableHotspotTemplateScript" time="0">
+    <skipped message="Method SelectableHotspotTemplateScript.CatLogOutTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@50b494a6] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.VideoTemplateScript" time="3.529"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.VideoTemplateScript" time="19.717"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.VideoTemplateScript" time="33.382"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.VideoTemplateScript" time="6.531"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.VideoTemplateScript" time="4.733"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.VideoTemplateScript" time="9.138"/>
+  <testcase name="CatEditVideoTemplate" classname="com.cat.AutomationPage.VideoTemplateScript" time="41.487"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.VideoTemplateScript" time="2.871"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.SelectAndRevealTemplateScript" time="3.53"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.SelectAndRevealTemplateScript" time="19.692"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.SelectAndRevealTemplateScript" time="33.217"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.SelectAndRevealTemplateScript" time="6.5"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.SelectAndRevealTemplateScript" time="4.757"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.SelectAndRevealTemplateScript" time="11.378"/>
+  <testcase name="CatEditSelectAndRevealTemplate" classname="com.cat.AutomationPage.SelectAndRevealTemplateScript" time="37.472"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.SelectAndRevealTemplateScript" time="3.049"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.TextAndGraphicTemplateScript" time="3.684"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.TextAndGraphicTemplateScript" time="19.765"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.TextAndGraphicTemplateScript" time="33.558"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.TextAndGraphicTemplateScript" time="6.63"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.TextAndGraphicTemplateScript" time="4.628"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.TextAndGraphicTemplateScript" time="4.872"/>
+  <testcase name="CatEditTextTemplate" classname="com.cat.AutomationPage.TextAndGraphicTemplateScript" time="29.717"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.TextAndGraphicTemplateScript" time="3.044"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.SAQTemplateScript" time="3.314"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.SAQTemplateScript" time="20.314"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.SAQTemplateScript" time="33.793"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.SAQTemplateScript" time="6.832"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.SAQTemplateScript" time="4.84"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.SAQTemplateScript" time="5.589"/>
+  <testcase name="CatEditSAQ" classname="com.cat.AutomationPage.SAQTemplateScript" time="67.755"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.SAQTemplateScript" time="3.123"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.BranchingScript" time="4.032"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.BranchingScript" time="19.787"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.BranchingScript" time="32.976"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.BranchingScript" time="6.437"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.BranchingScript" time="4.71"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.BranchingScript" time="4.07"/>
+  <testcase name="CatEditTextTemplate" classname="com.cat.AutomationPage.BranchingScript" time="29.009"/>
+  <testcase name="CatCreateBranchingLesson" classname="com.cat.AutomationPage.BranchingScript" time="27.41"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.BranchingScript" time="3.873"/>
+  <testcase name="CatLogicTC" classname="com.cat.AutomationPage.ConfigurationScript" time="3.26"/>
+  <testcase name="CatResetTest" classname="com.cat.AutomationPage.ConfigurationScript" time="19.635"/>
+  <testcase name="CatCreateCourseTC" classname="com.cat.AutomationPage.ConfigurationScript" time="33.526"/>
+  <testcase name="CatAddLesson" classname="com.cat.AutomationPage.ConfigurationScript" time="7.343"/>
+  <testcase name="CatAddTopic" classname="com.cat.AutomationPage.ConfigurationScript" time="5.167"/>
+  <testcase name="CatAddPage" classname="com.cat.AutomationPage.ConfigurationScript" time="4.32"/>
+  <testcase name="CatEditTextTemplate" classname="com.cat.AutomationPage.ConfigurationScript" time="30.296"/>
+  <testcase name="CatLockPage" classname="com.cat.AutomationPage.ConfigurationScript" time="16.84"/>
+  <testcase name="CatUnLockPage" classname="com.cat.AutomationPage.ConfigurationScript" time="6.515"/>
+  <testcase name="CatHidePage" classname="com.cat.AutomationPage.ConfigurationScript" time="6.546"/>
+  <testcase name="CatUnhidePage" classname="com.cat.AutomationPage.ConfigurationScript" time="6.555"/>
+  <testcase name="CatCopyNode" classname="com.cat.AutomationPage.ConfigurationScript" time="6.555"/>
+  <testcase name="CatPasteNode" classname="com.cat.AutomationPage.ConfigurationScript" time="6.753"/>
+  <testcase name="CatDeletePage" classname="com.cat.AutomationPage.ConfigurationScript" time="15.223"/>
+  <testcase name="CatLogOutTC" classname="com.cat.AutomationPage.ConfigurationScript" time="2.86"/>
+</testsuite>

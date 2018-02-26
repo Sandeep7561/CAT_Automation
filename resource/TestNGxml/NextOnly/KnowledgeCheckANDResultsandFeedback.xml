@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FluidX NextOnly Test Suite">
+	<test name="KnowledgeCheckANDResultsandFeedback">
+		<groups>
+			<run>
+				<include name="NextOnly" />
+				<include name="Correct" />
+				<exclude name="Incorrect" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.lrn.html5.templates.KnowledgeCheckANDResultsandFeedback" />
+		</classes>
+	</test>
+
+</suite>

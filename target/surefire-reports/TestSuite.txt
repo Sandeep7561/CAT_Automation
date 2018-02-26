@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 120, Failures: 5, Errors: 0, Skipped: 7, Time elapsed: 3,139.681 sec <<< FAILURE! - in TestSuite
+SelectableImagePageTC(com.cat.AutomationPage.SelectableImageTemplateScript)  Time elapsed: 245.255 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Upload Files'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir4320_20089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 222e7dc48eb49e7976307187c30319a5
+	at com.cat.AutomationPage.SelectableImageTemplateScript.SelectableImagePageTC(SelectableImageTemplateScript.java:75)
+
+CatEditCarouselTemplate(com.cat.AutomationPage.CarouselTemplateScript)  Time elapsed: 242.97 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Upload Files'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir4320_20089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 222e7dc48eb49e7976307187c30319a5
+	at com.cat.AutomationPage.CarouselTemplateScript.CatEditCarouselTemplate(CarouselTemplateScript.java:77)
+
+CatLogOutTC(com.cat.AutomationPage.CarouselTemplateScript)  Time elapsed: 180.02 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //ul[@class='nav navbar-nav nav-pills pull-right']/li[2]/a (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at com.cat.AutomationPage.CarouselTemplateScript.CatLogOutTC(CarouselTemplateScript.java:85)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //ul[@class='nav navbar-nav nav-pills pull-right']/li[2]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at com.cat.AutomationPage.CarouselTemplateScript.CatLogOutTC(CarouselTemplateScript.java:85)
+
+CatCreateCourseTC(com.cat.AutomationPage.EditDragAndDropTemplateScript)  Time elapsed: 392.72 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='messageDialog']/tr/td[2] (tried for 200 second(s) with 500 MILLISECONDS interval)
+	at com.cat.AutomationPage.EditDragAndDropTemplateScript.CatCreateCourseTC(EditDragAndDropTemplateScript.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //*[@id='messageDialog']/tr/td[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at com.cat.AutomationPage.EditDragAndDropTemplateScript.CatCreateCourseTC(EditDragAndDropTemplateScript.java:40)
+
+SelectableHotspotPageTC(com.cat.AutomationPage.SelectableHotspotTemplateScript)  Time elapsed: 260.547 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Upload Files'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QAWIN7QA01', ip: '10.103.15.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\JENKIN~1.USE\AppData\Local\Temp\scoped_dir6024_24250}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7ce9e11766e10c8a50e6b1e151168510
+	at com.cat.AutomationPage.SelectableHotspotTemplateScript.SelectableHotspotPageTC(SelectableHotspotTemplateScript.java:77)
+

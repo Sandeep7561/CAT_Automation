@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="227288" started-at="2018-02-23T12:57:05Z" finished-at="2018-02-23T13:00:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="227288" started-at="2018-02-23T12:57:05Z" finished-at="2018-02-23T13:00:53Z">
+      <class name="com.cat.AutomationPage.SelectableHotspotTemplateScript">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="startWebDriver" is-config="true" duration-ms="6502" started-at="2018-02-23T04:56:59Z" finished-at="2018-02-23T04:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="createHtmltView()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="createHtmltView" is-config="true" duration-ms="1" started-at="2018-02-23T04:57:05Z" finished-at="2018-02-23T04:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createHtmltView -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="openBrowser" is-config="true" duration-ms="2" started-at="2018-02-23T04:57:05Z" finished-at="2018-02-23T04:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadLocater" is-config="true" duration-ms="105" started-at="2018-02-23T04:57:05Z" finished-at="2018-02-23T04:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="CatLogicTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="CatLogicTC" duration-ms="4575" started-at="2018-02-23T04:57:05Z" finished-at="2018-02-23T04:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatLogicTC -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="updateResult" is-config="true" duration-ms="671" started-at="2018-02-23T04:57:10Z" finished-at="2018-02-23T04:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatLogicTC status=SUCCESS method=SelectableHotspotTemplateScript.CatLogicTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[void com.cat.AutomationPage.SelectableHotspotTemplateScript.CatLogicTC() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadLocater" is-config="true" duration-ms="24" started-at="2018-02-23T04:57:11Z" finished-at="2018-02-23T04:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="CatResetTest()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="CatResetTest" duration-ms="20809" started-at="2018-02-23T04:57:11Z" depends-on-methods="com.cat.AutomationPage.SelectableHotspotTemplateScript.CatLogicTC" finished-at="2018-02-23T04:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatResetTest -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="updateResult" is-config="true" duration-ms="83" started-at="2018-02-23T04:57:32Z" finished-at="2018-02-23T04:57:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatResetTest status=SUCCESS method=SelectableHotspotTemplateScript.CatResetTest()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[void com.cat.AutomationPage.SelectableHotspotTemplateScript.CatResetTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadLocater" is-config="true" duration-ms="12" started-at="2018-02-23T04:57:32Z" finished-at="2018-02-23T04:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="CatCreateCourseTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="CatCreateCourseTC" duration-ms="44092" started-at="2018-02-23T04:57:32Z" depends-on-methods="com.cat.AutomationPage.SelectableHotspotTemplateScript.CatResetTest" finished-at="2018-02-23T04:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatCreateCourseTC -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="updateResult" is-config="true" duration-ms="134" started-at="2018-02-23T04:58:16Z" finished-at="2018-02-23T04:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatCreateCourseTC status=SUCCESS method=SelectableHotspotTemplateScript.CatCreateCourseTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[void com.cat.AutomationPage.SelectableHotspotTemplateScript.CatCreateCourseTC() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadLocater" is-config="true" duration-ms="14" started-at="2018-02-23T04:58:16Z" finished-at="2018-02-23T04:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="CatAddLesson()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="CatAddLesson" duration-ms="7659" started-at="2018-02-23T04:58:16Z" depends-on-methods="com.cat.AutomationPage.SelectableHotspotTemplateScript.CatCreateCourseTC" finished-at="2018-02-23T04:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatAddLesson -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="updateResult" is-config="true" duration-ms="69" started-at="2018-02-23T04:58:24Z" finished-at="2018-02-23T04:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatAddLesson status=SUCCESS method=SelectableHotspotTemplateScript.CatAddLesson()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[void com.cat.AutomationPage.SelectableHotspotTemplateScript.CatAddLesson() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadLocater" is-config="true" duration-ms="10" started-at="2018-02-23T04:58:24Z" finished-at="2018-02-23T04:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="CatAddTopic()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="CatAddTopic" duration-ms="4750" started-at="2018-02-23T04:58:24Z" depends-on-methods="com.cat.AutomationPage.SelectableHotspotTemplateScript.CatAddLesson" finished-at="2018-02-23T04:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatAddTopic -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="updateResult" is-config="true" duration-ms="99" started-at="2018-02-23T04:58:28Z" finished-at="2018-02-23T04:58:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatAddTopic status=SUCCESS method=SelectableHotspotTemplateScript.CatAddTopic()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[void com.cat.AutomationPage.SelectableHotspotTemplateScript.CatAddTopic() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadLocater" is-config="true" duration-ms="70" started-at="2018-02-23T04:58:29Z" finished-at="2018-02-23T04:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="CatAddPage" duration-ms="9810" started-at="2018-02-23T04:58:29Z" depends-on-methods="com.cat.AutomationPage.SelectableHotspotTemplateScript.CatAddTopic" finished-at="2018-02-23T04:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatAddPage -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="updateResult" is-config="true" duration-ms="145" started-at="2018-02-23T04:58:38Z" finished-at="2018-02-23T04:58:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=SelectableHotspotTemplateScript.CatAddPage()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[void com.cat.AutomationPage.SelectableHotspotTemplateScript.CatAddPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadLocater" is-config="true" duration-ms="30" started-at="2018-02-23T04:58:39Z" finished-at="2018-02-23T04:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="SelectableHotspotPageTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="SelectableHotspotPageTC" duration-ms="130315" started-at="2018-02-23T04:58:39Z" depends-on-methods="com.cat.AutomationPage.SelectableHotspotTemplateScript.CatAddPage" finished-at="2018-02-23T05:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectableHotspotPageTC -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="updateResult" is-config="true" duration-ms="74" started-at="2018-02-23T05:00:49Z" finished-at="2018-02-23T05:00:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectableHotspotPageTC status=SUCCESS method=SelectableHotspotTemplateScript.SelectableHotspotPageTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[void com.cat.AutomationPage.SelectableHotspotTemplateScript.SelectableHotspotPageTC() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadLocater" is-config="true" duration-ms="24" started-at="2018-02-23T05:00:49Z" finished-at="2018-02-23T05:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="CatLogOutTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="CatLogOutTC" duration-ms="3579" started-at="2018-02-23T05:00:49Z" depends-on-methods="com.cat.AutomationPage.SelectableHotspotTemplateScript.SelectableHotspotPageTC" finished-at="2018-02-23T05:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatLogOutTC -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="updateResult" is-config="true" duration-ms="60" started-at="2018-02-23T05:00:53Z" finished-at="2018-02-23T05:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatLogOutTC status=SUCCESS method=SelectableHotspotTemplateScript.CatLogOutTC()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[void com.cat.AutomationPage.SelectableHotspotTemplateScript.CatLogOutTC() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2018-02-23T05:00:53Z" finished-at="2018-02-23T05:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="loadAllTestLogor()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="loadAllTestLogor" is-config="true" duration-ms="0" started-at="2018-02-23T05:00:53Z" finished-at="2018-02-23T05:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadAllTestLogor -->
+        <test-method status="PASS" signature="closeAllBrowser()[pri:0, instance:com.cat.AutomationPage.SelectableHotspotTemplateScript@4d41cee]" name="closeAllBrowser" is-config="true" duration-ms="5981" started-at="2018-02-23T05:00:53Z" finished-at="2018-02-23T05:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllBrowser -->
+      </class> <!-- com.cat.AutomationPage.SelectableHotspotTemplateScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

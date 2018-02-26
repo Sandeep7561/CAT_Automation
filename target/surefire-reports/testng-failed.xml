@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CAM Automation Suite]">
+  <test name="SelectableImageTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SelectableImageTemplateScript"/>
+    </classes>
+  </test> <!-- SelectableImageTemplateScript Test -->
+  <test name="CarouselTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.CarouselTemplateScript"/>
+    </classes>
+  </test> <!-- CarouselTemplateScript Test -->
+  <test name="EditDragAndDropTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.EditDragAndDropTemplateScript"/>
+    </classes>
+  </test> <!-- EditDragAndDropTemplateScript Test -->
+  <test name="ConsentAutomationTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.ConsentAutomationTemplateScript"/>
+    </classes>
+  </test> <!-- ConsentAutomationTemplateScript Test -->
+  <test name="BinaryListTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.BinaryListTemplateScript"/>
+    </classes>
+  </test> <!-- BinaryListTemplateScript Test -->
+  <test name="ConsultTemplate Test">
+    <classes>
+      <class name="com.cat.AutomationPage.ConsultTemplate"/>
+    </classes>
+  </test> <!-- ConsultTemplate Test -->
+  <test name="SidebarTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SidebarTemplateScript"/>
+    </classes>
+  </test> <!-- SidebarTemplateScript Test -->
+  <test name="SelectableHotspotTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SelectableHotspotTemplateScript"/>
+    </classes>
+  </test> <!-- SelectableHotspotTemplateScript Test -->
+  <test name="VideoTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.VideoTemplateScript"/>
+    </classes>
+  </test> <!-- VideoTemplateScript Test -->
+  <test name="SelectAndRevealTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SelectAndRevealTemplateScript"/>
+    </classes>
+  </test> <!-- SelectAndRevealTemplateScript Test -->
+  <test name="TextAndGraphicTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.TextAndGraphicTemplateScript"/>
+    </classes>
+  </test> <!-- TextAndGraphicTemplateScript Test -->
+  <test name="SAQTemplateScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.SAQTemplateScript"/>
+    </classes>
+  </test> <!-- SAQTemplateScript Test -->
+  <test name="BranchingScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.BranchingScript"/>
+    </classes>
+  </test> <!-- BranchingScript Test -->
+  <test name="ConfigurationScript Test">
+    <classes>
+      <class name="com.cat.AutomationPage.ConfigurationScript"/>
+    </classes>
+  </test> <!-- ConfigurationScript Test -->
+  <test name="SelectableImageTemplateScript Test(failed)">
+    <classes>
+      <class name="com.cat.AutomationPage.SAQTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SAQTemplateScript -->
+      <class name="com.cat.AutomationPage.TextAndGraphicTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.TextAndGraphicTemplateScript -->
+      <class name="com.cat.AutomationPage.ConfigurationScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="startWebDriver"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeAllBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConfigurationScript -->
+      <class name="com.cat.AutomationPage.BinaryListTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.BinaryListTemplateScript -->
+      <class name="com.cat.AutomationPage.SelectableImageTemplateScript">
+        <methods>
+          <include name="CatLogOutTC"/>
+          <include name="CatLogicTC"/>
+          <include name="openBrowser"/>
+          <include name="CatResetTest"/>
+          <include name="SelectableImagePageTC"/>
+          <include name="loadAllTestLogor"/>
+          <include name="CatAddPage"/>
+          <include name="createHtmltView"/>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="CatCreateCourseTC"/>
+          <include name="CatAddLesson"/>
+          <include name="CatAddTopic"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectableImageTemplateScript -->
+      <class name="com.cat.AutomationPage.BranchingScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.BranchingScript -->
+      <class name="com.cat.AutomationPage.EditDragAndDropTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.EditDragAndDropTemplateScript -->
+      <class name="com.cat.AutomationPage.ConsultTemplate">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConsultTemplate -->
+      <class name="com.cat.AutomationPage.SelectAndRevealTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectAndRevealTemplateScript -->
+      <class name="com.cat.AutomationPage.ConsentAutomationTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConsentAutomationTemplateScript -->
+      <class name="com.cat.AutomationPage.SidebarTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SidebarTemplateScript -->
+      <class name="com.cat.AutomationPage.SelectableHotspotTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectableHotspotTemplateScript -->
+      <class name="com.cat.AutomationPage.VideoTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.VideoTemplateScript -->
+      <class name="com.cat.AutomationPage.CarouselTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.CarouselTemplateScript -->
+    </classes>
+  </test> <!-- SelectableImageTemplateScript Test(failed) -->
+  <test name="CarouselTemplateScript Test(failed)">
+    <classes>
+      <class name="com.cat.AutomationPage.SAQTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SAQTemplateScript -->
+      <class name="com.cat.AutomationPage.TextAndGraphicTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.TextAndGraphicTemplateScript -->
+      <class name="com.cat.AutomationPage.ConfigurationScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="startWebDriver"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeAllBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConfigurationScript -->
+      <class name="com.cat.AutomationPage.BinaryListTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.BinaryListTemplateScript -->
+      <class name="com.cat.AutomationPage.SelectableImageTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectableImageTemplateScript -->
+      <class name="com.cat.AutomationPage.BranchingScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.BranchingScript -->
+      <class name="com.cat.AutomationPage.EditDragAndDropTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.EditDragAndDropTemplateScript -->
+      <class name="com.cat.AutomationPage.ConsultTemplate">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConsultTemplate -->
+      <class name="com.cat.AutomationPage.SelectAndRevealTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectAndRevealTemplateScript -->
+      <class name="com.cat.AutomationPage.ConsentAutomationTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConsentAutomationTemplateScript -->
+      <class name="com.cat.AutomationPage.SidebarTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SidebarTemplateScript -->
+      <class name="com.cat.AutomationPage.SelectableHotspotTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectableHotspotTemplateScript -->
+      <class name="com.cat.AutomationPage.VideoTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.VideoTemplateScript -->
+      <class name="com.cat.AutomationPage.CarouselTemplateScript">
+        <methods>
+          <include name="CatLogicTC"/>
+          <include name="CatAddTopic"/>
+          <include name="openBrowser"/>
+          <include name="CatAddLesson"/>
+          <include name="loadAllTestLogor"/>
+          <include name="CatCreateCourseTC"/>
+          <include name="createHtmltView"/>
+          <include name="CatAddPage"/>
+          <include name="CatEditCarouselTemplate"/>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="CatLogOutTC"/>
+          <include name="CatResetTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.CarouselTemplateScript -->
+    </classes>
+  </test> <!-- CarouselTemplateScript Test(failed) -->
+  <test name="EditDragAndDropTemplateScript Test(failed)">
+    <classes>
+      <class name="com.cat.AutomationPage.SAQTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SAQTemplateScript -->
+      <class name="com.cat.AutomationPage.TextAndGraphicTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.TextAndGraphicTemplateScript -->
+      <class name="com.cat.AutomationPage.ConfigurationScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="startWebDriver"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeAllBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConfigurationScript -->
+      <class name="com.cat.AutomationPage.BinaryListTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.BinaryListTemplateScript -->
+      <class name="com.cat.AutomationPage.SelectableImageTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectableImageTemplateScript -->
+      <class name="com.cat.AutomationPage.BranchingScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.BranchingScript -->
+      <class name="com.cat.AutomationPage.EditDragAndDropTemplateScript">
+        <methods>
+          <include name="CatLogicTC"/>
+          <include name="CatLogOutTC"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="CatAddPage"/>
+          <include name="createHtmltView"/>
+          <include name="CatResetTest"/>
+          <include name="CatCreateCourseTC"/>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="CatAddTopic"/>
+          <include name="CatEditDragAndDropTemplate"/>
+          <include name="closeBrowser"/>
+          <include name="CatAddLesson"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.EditDragAndDropTemplateScript -->
+      <class name="com.cat.AutomationPage.ConsultTemplate">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConsultTemplate -->
+      <class name="com.cat.AutomationPage.SelectAndRevealTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectAndRevealTemplateScript -->
+      <class name="com.cat.AutomationPage.ConsentAutomationTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConsentAutomationTemplateScript -->
+      <class name="com.cat.AutomationPage.SidebarTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SidebarTemplateScript -->
+      <class name="com.cat.AutomationPage.SelectableHotspotTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectableHotspotTemplateScript -->
+      <class name="com.cat.AutomationPage.VideoTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.VideoTemplateScript -->
+      <class name="com.cat.AutomationPage.CarouselTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.CarouselTemplateScript -->
+    </classes>
+  </test> <!-- EditDragAndDropTemplateScript Test(failed) -->
+  <test name="SelectableHotspotTemplateScript Test(failed)">
+    <classes>
+      <class name="com.cat.AutomationPage.SAQTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SAQTemplateScript -->
+      <class name="com.cat.AutomationPage.TextAndGraphicTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.TextAndGraphicTemplateScript -->
+      <class name="com.cat.AutomationPage.ConfigurationScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="startWebDriver"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeAllBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConfigurationScript -->
+      <class name="com.cat.AutomationPage.BinaryListTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.BinaryListTemplateScript -->
+      <class name="com.cat.AutomationPage.SelectableImageTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectableImageTemplateScript -->
+      <class name="com.cat.AutomationPage.BranchingScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.BranchingScript -->
+      <class name="com.cat.AutomationPage.EditDragAndDropTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.EditDragAndDropTemplateScript -->
+      <class name="com.cat.AutomationPage.ConsultTemplate">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConsultTemplate -->
+      <class name="com.cat.AutomationPage.SelectAndRevealTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectAndRevealTemplateScript -->
+      <class name="com.cat.AutomationPage.ConsentAutomationTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.ConsentAutomationTemplateScript -->
+      <class name="com.cat.AutomationPage.SidebarTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SidebarTemplateScript -->
+      <class name="com.cat.AutomationPage.SelectableHotspotTemplateScript">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="CatAddLesson"/>
+          <include name="loadAllTestLogor"/>
+          <include name="CatCreateCourseTC"/>
+          <include name="createHtmltView"/>
+          <include name="updateResult"/>
+          <include name="CatAddTopic"/>
+          <include name="CatLogOutTC"/>
+          <include name="loadLocater"/>
+          <include name="CatLogicTC"/>
+          <include name="SelectableHotspotPageTC"/>
+          <include name="CatResetTest"/>
+          <include name="CatAddPage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.SelectableHotspotTemplateScript -->
+      <class name="com.cat.AutomationPage.VideoTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.VideoTemplateScript -->
+      <class name="com.cat.AutomationPage.CarouselTemplateScript">
+        <methods>
+          <include name="updateResult"/>
+          <include name="loadLocater"/>
+          <include name="openBrowser"/>
+          <include name="loadAllTestLogor"/>
+          <include name="closeBrowser"/>
+          <include name="createHtmltView"/>
+        </methods>
+      </class> <!-- com.cat.AutomationPage.CarouselTemplateScript -->
+    </classes>
+  </test> <!-- SelectableHotspotTemplateScript Test(failed) -->
+</suite> <!-- Failed suite [CAM Automation Suite] -->
